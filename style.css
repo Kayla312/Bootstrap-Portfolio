@@ -1,4 +1,10 @@
-img {
-    height: 100px;
-    width: 15%;
+body{
+    background: grey;
+
+}
+.container {
+    /* for clarification */
+    border: 1px solid red;
+    background: white;
+
 }
