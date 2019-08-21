@@ -1,4 +1,4 @@
-body{
+body {
     background: grey;
 
 }
@@ -7,4 +7,10 @@ body{
     border: 1px solid red;
     background: white;
 
+}
+.navbar-header {
+    background-color: teal;
+}
+main {
+    margin-top: 50px;
 }
