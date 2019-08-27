@@ -13,6 +13,9 @@ body {
 /* .navbar-header {
     background-color:rgba(002, 082, 175, 0.4);
 } */
+#navbarText{
+    float: right;
+}
 main {
     margin-top: 50px;
 }

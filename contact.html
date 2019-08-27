@@ -14,48 +14,62 @@
   </head>
   <body>
     <!-- Nav Bar Begin -->
-    <nav class="navbar navbar-expand-lg navbar-light ">
-      <!-- <div class="container"> -->
-        <div class="navbar-header">
-          <span class="navbar-brand"><h2>Kayla Williams</h2></span>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="navbar-header col-sm-10">
+          <span class="navbar-brand "><h2>Kayla Williams</h2></span>
         </div>
-      <!-- </div> -->
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
+        <!-- <div class="collapse navbar-collapse" id="navbarText"> -->
+          <ul class="navbar-nav row">
+            <li class="nav-item col-sm-2">
               <a class="nav-link" href="index.html">About</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="./contact.html">Contact</a>
             </li>
           </ul>
-      </div>
+      <!-- </div> -->
     </nav>
     <!-- End Nav Bar -->
-
-    <!-- About Me Section -->
-    <div class="container">
-      <h3>
-        About Me
-      </h3>
-      <hr>
-      <img src="images/Kayla.jpg" alt="Programmers Face" class="img-thumbnail float-left img-fluid">
-      <div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat animi rem asperiores nulla autem doloremque, minus impedit sequi perferendis, atque tenetur ducimus obcaecati dolorum fugit nihil cum quos architecto iste.
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus qui temporibus consequatur officiis delectus beatae unde quis eligendi, at architecto cupiditate odio suscipit nihil, optio dolore enim nemo consequuntur sapiente.
-        </p>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis eum in explicabo? Quo aspernatur expedita saepe officia sint ex eius neque similique corporis veniam. Voluptatem excepturi quidem hic nemo commodi!
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Et consequatur quibusdam autem doloremque vitae voluptas pariatur consequuntur velit labore, porro animi corrupti minus provident nisi facere laboriosam aspernatur sint in?
-        </p>
-      </div>
-    </div>
-    <!-- End About Me Section -->
+    <!-- Start Contact Form -->
+    <main class="container">
+      <section class="row">
+          <div class="col-sm-10">
+            <article class="block">
+              <h2 class="block-header">
+                Contact
+              </h2>
+              <hr />
+              <!-- Start of Contact Form -->
+              <form>
+                <!-- Ask user for Name -->
+                <div class="form-group">
+                  <label for="colFormLabelLg" class="col-sm-1 col-form-label col-form-label-lg"> Name </label>
+                  <div class="col-sm-10">
+                    <input type="name" class="form-control form-control-lg" id="colFormLabelLg" placeholder="Katherine Johnson">
+                  </div>
+                </div>
+                <!-- ask for user email -->
+                <div class="form-group">
+                  <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Email</label>
+                  <div class="col-sm-10">
+                    <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="thisIsYourEmail@whateverEmailHostYouHave.com (aka name@gmail.com)">
+                  </div>
+                </div>
+                <div class="form-group">
+                    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Message</label>
+                    <div class="col-sm-10">
+                      <textarea class="form-control" id="messageArea" rows="7"></textarea>
+                    </div>
+                </div>
+              </form>
+            </article>
+          </div>
+      </section>
+    </main>
               
+    <!-- Start Footer Section -->
+    <footer class="navbar-expand-lg navbar-light fixed-bottom text-center">
+      Kayla Williams 2018 &copy; Copyright
+    </footer>
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
