@@ -4,7 +4,7 @@ body {
 }
 .container {
     /* for clarification */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background: white;
 
 }
