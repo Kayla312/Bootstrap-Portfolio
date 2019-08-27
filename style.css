@@ -1,11 +1,13 @@
 body {
-    background: grey;
+    background-image: url(./images/background.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
-.container {
+.container, .navbar, footer {
     /* for clarification */
     /* border: 1px solid red; */
-    background: white;
+    background: rgba(240, 234, 214, 0.95);
 
 }
 .navbar-header {
