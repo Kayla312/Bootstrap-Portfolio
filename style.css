@@ -10,12 +10,12 @@ body {
     background: rgba(240, 234, 214, 0.95);
 
 }
-.navbar-header {
-    background-color: teal;
-}
+/* .navbar-header {
+    background-color:rgba(002, 082, 175, 0.4);
+} */
 main {
     margin-top: 50px;
 }
 img {
-    margin: 20px;
+    margin-right : 20px;
 }
